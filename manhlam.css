@@ -1,3 +1,4 @@
+
 html {
     box-sizing: border-box
 }
@@ -1478,7 +1479,8 @@ a {
 
 .w3-teal,.w3-hover-teal:hover {
     color: #fff!important;
-    background-color: #009688!important
+    background-color: 
+red!important
 }
 
 .w3-yellow,.w3-hover-yellow:hover {
@@ -1608,7 +1610,8 @@ a {
 }
 
 .w3-text-teal,.w3-hover-text-teal:hover {
-    color: #009688!important
+    color: 
+gold!important
 }
 
 .w3-text-yellow,.w3-hover-text-yellow:hover {
@@ -1724,7 +1727,7 @@ a {
 }
 
 .w3-border-black,.w3-hover-border-black:hover {
-    border-color: #221daf!important
+    border-color: #000!important
 }
 
 .w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover {
@@ -1732,7 +1735,7 @@ a {
 }
 
 .w3-border-light-grey,.w3-hover-border-light-grey:hover,.w3-border-light-gray,.w3-hover-border-light-gray:hover {
-    border-color: #0aeded!important
+    border-color: #f1f1f1!important
 }
 
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover {
@@ -1748,9 +1751,13 @@ a {
 }
 
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover {
-    border-color: #ffffcc!important
+  border-color: #ffffcc!important
 }
+h3,h4,h5,h6{
+  color: green
+}
+<style>
 
-.w3-border-pale-blue,.w3-hover-border-pale-blue:hover {
-    border-color: #e7ffff!important
+h2{
+  font-family: Abril Fatfaceroman
 }
