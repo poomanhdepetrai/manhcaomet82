@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="manhlam.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+h1,h2,h3,h4,h5,h6{
+    color: red;}
+
+    html{background: white ;
+    background-repeat : no repeat; }
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INTRODUCE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INTRODUCE</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t1.15752-9/380382519_843599337767514_5713037363188221405_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=IIZ2rIWUi24AX8ETFxN&_nc_ht=scontent.fhan3-5.fna&oh=03_AdRSCtD2qXjCjfsCmhcEYm-nDqlqGaAOhBgVbiijybXs0A&oe=653F4B15" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Bắc Giang</h3>
+      <p><b>Bắc Giang là thành phố tỉnh lỵ của tỉnh Bắc Giang, Việt Nam</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t1.15752-9/384304566_3621444624808103_5376911746232921164_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=itMQOPHUzsAAX_e4k2U&_nc_ht=scontent.fhan3-3.fna&oh=03_AdS7PHG-yEjB9cZNowjo54teyY_u2saQDuKeKm7V6RieTg&oe=653F40A8" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Hà Nội</h3>
+      <p><b>Hà Nội, thủ đô của Việt Nam, nổi tiếng với kiến trúc trăm tuổi và nền văn hóa phong phú với sự ảnh hưởng của khu vực Đông Nam Á, Trung Quốc và Pháp. Trung tâm thành phố là Khu phố cổ nhộn nhịp, nơi các con phố hẹp được mang tên "hàng". Có rất nhiều ngôi đền nhỏ, bao gồm Bạch Mã, tôn vinh một con ngựa huyền thoại, cùng với chợ Đồng Xuân, bán hàng gia dụng và thức ăn đường phố.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://scontent.fhan4-1.fna.fbcdn.net/v/t1.15752-9/355116157_295103676293220_3734938994905203285_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Y8htBpcnPGgAX_-ODHP&_nc_ht=scontent.fhan4-1.fna&oh=03_AdT7sgsmDTq63-qGFeYllT77PVYycUzPi_FehSF2LfHhRw&oe=653F3D8B" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Việt Nam</h3>
+      <p><b>Việt Nam, quốc hiệu là Cộng hòa xã hội chủ nghĩa Việt Nam, là một quốc gia nằm ở cực Đông của bán đảo Đông Dương thuộc khu vực Đông Nam Á, giáp với Lào, Campuchia, Trung Quốc, biển Đông và vịnh Thái Lan. Lãnh thổ Việt Nam xuất hiện con người sinh sống từ thời đại đồ đá cũ, khởi đầu với các nhà nước Văn Lang, Âu Lạc..</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Việt Nam</h2>
+    <p class="w3-opacity"><i>Việt Nam Thân Yêu</i></p>
+    <p class="w3-justify">Quốc gia Việt Nam được thành lập theo một thỏa thuận năm 1949 giữa Bảo Đại (cựu hoàng của nhà Nguyễn) và Tổng thống Pháp. Về mặt pháp lý, có quan điểm cho rằng bản thỏa thuận này bị xem là bất hợp pháp, do Bảo Đại đã thoái vị từ ngày 25/8/1945 và chỉ còn là một công dân bình thường nên ông ta không có tư cách pháp lý để thay mặt đất nước ký thỏa thuận với Pháp (Trong khi đó Chính phủ Việt Nam Dân chủ Cộng hòa do Hồ Chí Minh làm Chủ tịch đang tiến hành kháng chiến chống Pháp). Việc thành lập Quốc gia Việt Nam bị chính quyền Việt Nam Dân chủ Cộng hòa coi như một chiêu bài của thực dân Pháp, nhằm thành lập chính phủ bù nhìn để hợp thức hóa việc xâm lược Việt Nam.Vì việc thỏa hiệp với Pháp, Bảo Đại đã bị tòa án Việt Nam Dân chủ Cộng hòa kết án phản quốc từ năm 1948</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Hồ Chí Minh</p>
+        <img src="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.15752-9/379606423_702067097925031_7274748927912891414_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=QylHn9vrk64AX-ITcah&_nc_ht=scontent.fhan17-1.fna&_nc_e2o=s&oh=03_AdSZahSe-HHywImni3dT0hfpPcHmu6nFc70qSn9mWzY36g&oe=6545F90A" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Chủ tịch Hồ Chí Minh và Đại tướng Võ Nguyên Giáp</p>
+        <img src="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.15752-9/385486482_1068602824040949_6615781027946164888_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=hIaY9WH43y4AX8hPy1B&_nc_ht=scontent.fhan17-1.fna&_nc_e2o=s&oh=03_AdQN_YJdy9VnHQABJky33u-9w_VqoI9eWKGts3u280Y6Lw&oe=6545FEB0" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Võ Nguyên Giáp</p>
+        <img src="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.15752-9/386888626_1101665464575171_1473354882416629062_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zFpmInLdt7IAX9yUtpE&_nc_ht=scontent.fhan17-1.fna&_nc_e2o=s&oh=03_AdQ4Vd-8t77khaK84emuTR8zI81mG_IsJncFusKNG3dfnw&oe=6545E1D3" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">TOUR DATES</h2>
+      <p class="w3-opacity w3-center"><i>Đứng dậy và đi ngay thôi!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">September / bắc giang <span class="w3-tag w3-red w3-margin-left">Close</span></li>
+        <li class="w3-padding">September / hà nội <span class="w3-tag w3-red w3-margin-left">Close</span></li>
+        <li class="w3-padding">September / sài gòn <span class="w3-badge w3-right w3-margin-right">Open</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://scontent.fhan4-2.fna.fbcdn.net/v/t1.15752-9/383045952_1364886577719230_5029678728072532379_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=AkGqDxc0p44AX_BLKH4&_nc_ht=scontent.fhan4-2.fna&oh=03_AdRySuAk37hZofz85cpCBIynITqIMVqhNhqiHYYBsf5-Xw&oe=653F3450" alt="Sài Gòn" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Sài Gòn</b></p>
+            <p class="w3-opacity">28/9/2023</p>
+            <p>trung thu ở sài gòn .</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://scontent.fhan3-4.fna.fbcdn.net/v/t1.15752-9/379658721_1048554186145603_3009263313741686904_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=iFCCuDl_1GgAX8DUy_8&_nc_ht=scontent.fhan3-4.fna&oh=03_AdQ0Fk5IVEmrRXjGiWRtxMZ1xm8qpkAuHzbzyqlXs-r_AA&oe=653F44E9" alt="Hà Nội" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Hà Nội</b></p>
+            <p class="w3-opacity">28/9/2023</p>
+            <p>Hà Nội vào dịp trung thu.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://scontent.fhan4-1.fna.fbcdn.net/v/t1.15752-9/380049196_857293925667967_5469435620536994802_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=RY23p_oYCowAX_twfEh&_nc_ht=scontent.fhan4-1.fna&oh=03_AdRDOQSxxVyhF6Qv5VkmANdhK4Vx8I_J5fL4-3t31Qbp2g&oe=653F4F44" alt="Bắc Giang" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Bắc Giang</b></p>
+            <p class="w3-opacity">28/9/2023</p>
+            <p>buổi trung thu náo nhiệt vào mỗi năm.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> 100.000d/Tickets</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">Liên Hệ</h2>
+    <p class="w3-opacity w3-center"><i>hãy góp ý nếu bạn có thể!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Hà Nội, Việt Nam<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 0902066265<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: poomanh9@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Liên Hệ <a href="https://www.facebook.com/manhnew.humg.2022/" target="_blank">manh.humg</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
